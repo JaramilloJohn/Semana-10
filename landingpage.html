@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TechNova Solutions</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body id="principal">
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <h1 class="titulo">TechNova Solutions</h1>
+        <p class="slogan">Innovación digital para tu negocio</p>
+    </header>
+
+    <!-- ================= NAV ================= -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span>TechNova</span>Solutions
+            </div>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <div class="menu">
+                <a href="#servicios" class="nav-link">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>Servicios</span>
+                </a>
+                <a href="#nosotros" class="nav-link">
+                    <i class="fas fa-users"></i>
+                    <span>Nosotros</span>
+                </a>
+                <a href="#contacto" class="nav-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contacto</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= MAIN ================= -->
+    <main class="contenedor">
+
+        <!-- Sección Servicios -->
+        <section id="servicios" class="seccion">
+            <h2>Nuestros Servicios</h2>
+
+            <div class="services-grid">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/cap1.jpeg" alt="Desarrollo Web" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Desarrollo Web</h3>
+                        <p class="destacado">
+                            Creamos sitios web modernos, rápidos y responsivos.
+                        </p>
+                        <a href="#contacto" class="btn-more">Saber más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/cap2.jpeg" alt="Aplicaciones Móviles" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Aplicaciones Móviles</h3>
+                        <p>
+                            Aplicaciones eficientes adaptadas a tus necesidades.
+                        </p>
+                        <a href="#contacto" class="btn-more">Saber más <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Nosotros -->
+        <section id="nosotros" class="seccion">
+            <h2>¿Quiénes somos?</h2>
+
+            <p>
+                Somos una empresa dedicada a ofrecer soluciones tecnológicas
+                innovadoras para pequeñas y medianas empresas.
+            </p>
+
+            <div class="team-image-container">
+                <img src="img/cap3.jpeg"
+                     alt="Equipo de trabajo"
+                     class="imagen-equipo">
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto" class="seccion">
+            <div class="contacto-contenedor">
+                <div class="contacto-info">
+                    <h2>Contáctanos</h2>
+                    <p class="contacto-descripcion">
+                        ¡Estamos listos para ayudarte! Completa el formulario y nos pondremos en contacto contigo a la brevedad.
+                    </p>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Correo</h4>
+                            <a href="mailto:contacto@technova.com">contacto@technova.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <a href="tel:+1234567890">+1 (234) 567-890</a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Av. Tecnológico #123<br>Guayaquil, Ecuador</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="formulario-contacto">
+                    <div class="form-group">
+                        <input type="text" id="nombre" name="nombre" required>
+                        <label for="nombre">Nombre completo</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Correo electrónico</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" id="telefono" name="telefono">
+                        <label for="telefono">Teléfono (opcional)</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <select id="servicio" name="servicio" required>
+                            <option value="" disabled selected></option>
+                            <option value="web">Desarrollo Web</option>
+                            <option value="movil">Aplicaciones Móviles</option>
+                            <option value="consultoria">Consultoría</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                        <label for="servicio">¿En qué podemos ayudarte?</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                        <label for="mensaje">Mensaje</label>
+                    </div>
+                    
+                    <button type="submit" class="btn-enviar">
+                        <span>Enviar mensaje</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <p>&copy; 2026 TechNova Solutions - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
