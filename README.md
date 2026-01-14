@@ -99,5 +99,4 @@ Landing page moderna y completamente responsiva para **TechNova Solutions**, una
 
 <div align="center">
   <p>✨ Desarrollado con pasión por el Grupo 1 - 2026 ✨</p>
-  <p>🎓 [Nombre de la Institución]</p>
 </div>
