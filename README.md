@@ -23,9 +23,9 @@ Landing page moderna y completamente responsiva para **TechNova Solutions**, una
 - **Frontend**:
   - HTML5 semántico
   - CSS3 con variables personalizadas
-  - JavaScript vanilla
   - Font Awesome para iconos
   - Google Fonts (Inter)
+
 
 ## 📸 Capturas de Pantalla
 
@@ -48,23 +48,25 @@ Landing page moderna y completamente responsiva para **TechNova Solutions**, una
 - **Inicio**: Presentación de la empresa con llamada a la acción
 - **Servicios**: Muestra de los servicios ofrecidos con imágenes atractivas
 - **Nosotros**: Información sobre el equipo y la empresa
-- **Contacto**: Formulario de contacto funcional
+- **Contacto**: Formulario de contacto con validación HTML5
 
 ### 🎯 Características Técnicas
-- Diseño modular y escalable
-- Código limpio y bien documentado
-- Optimizado para SEO
-- Animaciones suaves y profesionales
-- Validación de formularios
+- Diseño modular y escalable con puro CSS
+- Código limpio, semántico y bien documentado
+- Optimizado para SEO y accesibilidad
+- Animaciones y transiciones fluidas con CSS3
+- Validación de formularios con HTML5
+- Menú móvil responsive sin JavaScript
+- Efectos visuales avanzados con CSS puro
 
 ## 👥 Equipo de Desarrollo - Grupo 1
 
 | Rol | Nombre | Tareas Principales |
 |-----|--------|-------------------|
-| **Líder del Proyecto** | Almeida Coello Byron Omar | Coordinación del equipo, estructura HTML, integración de componentes |
+| **Líder del Proyecto** | Almeida Coello Byron Omar | Coordinación del equipo, estructura HTML semántica |
 | **Diseñadora UI/UX** | Andrade Loor Thalia Mercedes | Diseño de interfaz, paleta de colores, experiencia de usuario |
-| **Desarrollador Frontend** | Jaramillo Rivera John David | Implementación de JavaScript, efectos interactivos |
-| **Desarrolladora Frontend** | Mora Quijije Yaritza Cristhel | Estilos CSS, diseño responsivo, optimización |
+| **Maquetador Web** | Jaramillo Rivera John David | Implementación de maquetación CSS, efectos visuales |
+| **Desarrolladora Frontend** | Mora Quijije Yaritza Cristhel | Estilos CSS avanzados, diseño responsivo |
 
 ## 🚀 Cómo Iniciar
 
