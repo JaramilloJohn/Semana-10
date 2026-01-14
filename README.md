@@ -27,6 +27,21 @@ Landing page moderna y completamente responsiva para **TechNova Solutions**, una
   - Font Awesome para iconos
   - Google Fonts (Inter)
 
+## 📸 Capturas de Pantalla
+
+<div align="center">
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 20px 0;">
+    <div style="flex: 1; min-width: 300px; max-width: 100%;">
+      <h3>Vista Principal</h3>
+      <img src="img/sitio1.png" alt="Vista principal del sitio" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </div>
+    <div style="flex: 1; min-width: 300px; max-width: 100%;">
+      <h3>Sección de Servicios</h3>
+      <img src="img/sitio2.png" alt="Sección de servicios" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </div>
+  </div>
+</div>
+
 ## 🎨 Características Principales
 
 ### 🌐 Secciones
